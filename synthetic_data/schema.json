@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    
+    
+    "Observed Issue": {
+      "type": "string"
+    },
+    "Root Cause": {
+      "type": "string"
+    },
+    "Corrective Action": {
+      "type": "string"
+    },
+    "Downtime Impact": {
+      "type": "string"
+    }
+  },
+  "propertyOrdering": [    
+    "Observed Issue",
+    "Root Cause",
+    "Corrective Action",
+    "Downtime Impact"
+  ],
+  "required": [
+    "Observed Issue",
+    "Root Cause",
+    "Corrective Action",
+    "Downtime Impact"
+  ]
+}
